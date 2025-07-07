@@ -1,3 +1,9 @@
+// const headerStyle = {
+//     color: 'red', 
+//     backgroundColor: 'yellow'
+// }
+
+
 
 const Header = () => {
     return (
