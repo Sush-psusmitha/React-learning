@@ -1,14 +1,10 @@
-import Header from './Header'
-import Content from './content';
-import Foooterr from './Foooterr';
+import Garage from "./components/Garage";
 
 function App() {
 
   return (
-    <div className='App'>
-      <Header/>
-      <Content/>
-      <Foooterr/>
+    <div>
+     <Garage/>
     </div>
   );
 }
