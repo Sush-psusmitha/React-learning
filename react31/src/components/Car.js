@@ -5,7 +5,7 @@ function Car({CarInfo}) {
    const text = `I'm ${brand} ${color} Car and price is ${CarInfo.price}`
     return(
         <>
-         <h2>{text} - function Comp with props</h2>       
+         <h2>{text} - function Comp with props </h2>       
         </>        
     )
 }
