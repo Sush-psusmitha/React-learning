@@ -1,10 +1,11 @@
-import Garage from "./components/Garage";
-
+// import Garage from "./components/Garage";
+import Header from "./components/Header";
 function App() {
 
   return (
     <div>
-     <Garage/>
+     {/* <Garage/> */}
+     <Header/>
     </div>
   );
 }
