@@ -1,12 +1,13 @@
-
-function Car({CarInfo}) {  
-//    const {CarInfo} = props; //we can pass the object with in the {} as props
-   const{brand,color} = CarInfo
-   const text = `I'm ${brand} ${color} Car and price is ${CarInfo.price}`
-    return(
+function Car(props){
+    const {CarInfo} = props; 
+    // const {brand,color} = CarInfo; 
+   // const text = `Hello I'm ${color} ${brand} Car!!`
+   const text = `Hello I'm ${CarInfo.color} ${CarInfo.brand} Car!`
+    return (
         <>
-         <h2>{text} - function Comp with props </h2>       
-        </>        
+         <h2>{text}</h2>
+        </>
     )
 }
+
 export default Car;
