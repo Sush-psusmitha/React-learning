@@ -11,7 +11,7 @@ function Header(){
        <>
         <h1 style={h1}>Hello Stylings How are You?</h1>
         <h2 className={styles.bigBlue}>Using Header.module.css stylings</h2>
-        <p>Add a little stylings here</p>
+        <p className='para'>Add a little stylings here - using header.css styles</p>
        </>
   )
 }
