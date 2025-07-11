@@ -1,12 +1,14 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 function FavoriteColor(){
-   const [color, SetColor] = useState('Blue');
+    // let color = "Blue"
+      const [color,SetColor] = useState('Blue')
     return(
         <>
-         <h1>My Favorite Color is {color}</h1>
-         <button onClick={ ()=> {SetColor('Red')}}>Change Color</button>
+          <h1>My Favorite Color is {color}</h1>
+          <button onClick={()=>{SetColor('Orange')}}>Change Color</button>
         </>
     )
 }
-export default FavoriteColor;
+
+export default FavoriteColor

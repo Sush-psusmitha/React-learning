@@ -9,11 +9,11 @@ import Scooter from './component/Scooter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
     <FavoriteColor/>
     <Bike/>
     <Scooter/>
-  </React.StrictMode>
+  </>
 );
 
 
