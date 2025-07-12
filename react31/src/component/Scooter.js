@@ -34,7 +34,7 @@ const [scooter, setScooter ] = useState(
      }      
      )
 }  
-console.log("current State", setScooter)
+// console.log("current State", setScooter)
 
     return(
         <>
