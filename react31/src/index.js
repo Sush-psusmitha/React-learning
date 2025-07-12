@@ -10,11 +10,15 @@ import './index.css';
 // import List from './component/List';\
 
 import Greetings from './component/ConditionalRendering';
+import Keys from './component/Keys';
+import Counter from './component/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
      <Greetings IsLoggedIn={true}/>
+     <Keys/>
+     <Counter/>
     {/*<FavoriteColor/>
     <Timer/>
      <Bike/>

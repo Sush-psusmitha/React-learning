@@ -6,7 +6,7 @@ function List(){
 
     function add(){
        const ItemName = "Item " + count; 
-       setList((prev)=>{return ([...prev,ItemName])});
+       setList((prev)=>{return ([ ...prev,ItemName])});
        SetCount(prev=>prev+1);
     }
     console.log("curent State", list)
