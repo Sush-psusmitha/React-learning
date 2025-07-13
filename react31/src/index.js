@@ -12,6 +12,7 @@ import './index.css';
 import Greetings from './component/ConditionalRendering';
 import Keys from './component/Keys';
 import Counter from './component/Counter';
+import Useeffect from './component/UseEffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
      <Greetings IsLoggedIn={true}/>
      <Keys/>
      <Counter/>
+     <Useeffect/>
     {/*<FavoriteColor/>
     <Timer/>
      <Bike/>
