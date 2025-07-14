@@ -91,9 +91,7 @@ function Useeffect(){
     function handleResize(){
       setWidth(window.innerWidth); 
       setHeight(window.innerHeight); 
-    }
-      
-    
+    }  
 
     return(
         <>

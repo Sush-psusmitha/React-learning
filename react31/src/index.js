@@ -9,18 +9,20 @@ import './index.css';
 // import Scooter from './component/Scooter';
 // import List from './component/List';\
 
-import Greetings from './component/ConditionalRendering';
-import Keys from './component/Keys';
-import Counter from './component/Counter';
-import Useeffect from './component/UseEffect';
+// import Greetings from './component/ConditionalRendering';
+// import Keys from './component/Keys';
+// import Counter from './component/Counter';
+// import Useeffect from './component/UseEffect';
+import MyForm from './component/MyForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-     <Greetings IsLoggedIn={true}/>
+     <MyForm />
+     {/* <Greetings IsLoggedIn={true}/>
      <Keys/>
      <Counter/>
-     <Useeffect/>
+     <Useeffect/> */}
     {/*<FavoriteColor/>
     <Timer/>
      <Bike/>
