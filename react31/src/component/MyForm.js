@@ -70,7 +70,7 @@ import { useState } from "react"
 // export default MyForm
 
 function MyForm(){
- const[Inputs, setInput] = useState({phone: "+91", email:"@gmail.com", country:"India"}); 
+ const[Inputs, setInput] = useState({phone: "+91", email:"@gmail.com", country:"India",about: "Testing!!"}); 
 
 const handleSubmit = (e) => {
  e.preventDefault();
@@ -90,15 +90,17 @@ const handleSubmit = (e) => {
       <form onSubmit={handleSubmit}>
         <label>Enter your Name: <input type="text" name="Name" onChange={handleChange}/></label><br/>
         <label>Enter your Age: <input type="text" name="Age" onChange={handleChange}/></label><br/>
-        <label>Enter your Email: <input type="text" name="Email" onChange={handleChange} value={Inputs.email}/></label><br />
+        <label>Enter your Email: <input type="text" name="email" onChange={handleChange} value={Inputs.email}/></label><br />
         <label>Enter your Phone: <input type="text" name="phone" onChange={handleChange} value={Inputs.phone}/></label><br />
-        <label>Select your Country:  <select name="country" onChange={handleChange} value={Inputs.country}>
+        <label>Select your Country:  
+          <select name="country" onChange={handleChange} value={Inputs.country}>
              <option value="">Select</option>
               <option value="Australia">Australia</option>
               <option value="US">US</option>
               <option value="UK">UK</option>
            </select>
           </label><br />
+          <label>Enter About You: <textarea name="about" value={Inputs.about} onChange={handleChange}></textarea></label> <br />
         <input type="submit" value="Submit" />
       </form>
     </>
